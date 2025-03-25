@@ -1,6 +1,6 @@
 {
   "name": "de440-parser",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Parser for NASA DE440 ephemeris data",
   "main": "src/index.js",
   "scripts": {
