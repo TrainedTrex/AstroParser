@@ -1,0 +1,22 @@
+{
+    "inputFiles": {
+      "header": "./data/header.440",
+      "dataFiles": ["./data/ascp*.440"],
+      "dataFilePattern": "./data/ascp*.440"
+    },
+    "outputDir": "./output",
+    "outputFormat": "json",
+    "bodies": [
+      "mars"
+    ],
+    "components": [
+      "position",
+      "velocity"
+    ],
+    "timeRange": {
+      "start": null,
+      "end": null
+    },
+    "timeStep": 1.0,
+    "logLevel": "info"
+  }

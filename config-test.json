@@ -1,0 +1,31 @@
+{
+    "inputFiles": {
+      "header": "./data/header.440",
+      "dataFiles": ["./data/ascp*.440"],
+      "dataFilePattern": "./data/ascp*.440"
+    },
+    "outputDir": "./output",
+    "outputFormat": "json",
+    "bodies": [
+      "mercury",
+      "venus",
+      "earthMoonBarycenter",
+      "mars",
+      "jupiter",
+      "saturn",
+      "uranus",
+      "neptune",
+      "pluto",
+      "moon",
+      "sun"
+    ],
+    "components": [
+      "position",
+      "velocity"
+    ],
+    "timeRange": {
+      "start": null,
+      "end": null
+    },
+    "logLevel": "info"
+  }

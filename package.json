@@ -1,0 +1,24 @@
+{
+  "name": "de440-parser",
+  "version": "1.0.0",
+  "description": "Parser for NASA DE440 ephemeris data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NASA",
+    "DE440",
+    "ephemeris",
+    "astronomy",
+    "parser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.0",
+    "glob": "^10.3.3"
+  }
+}
